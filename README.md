@@ -7,15 +7,20 @@ It demonstrates the ability to build a modern, fully responsive user interface u
 The implementation reflects a fullstack-oriented mindset with a focus on:
 
 ✅ Clean and reusable component structure
+
 ✅ Mobile-first and responsive design
+
 ✅ Modern UI best practices
+
 ✅ Code readability and maintainability
 
 ## Screenshot
 
-![Large Screen Screenshot](public/screenshot/large-screen.png)
-![Medium Screen Screenshot](public/screenshot/medium-screen.png)
-![Small Screen Screenshot](public/screenshot/small-screen.png)
+<p align="center">
+  <img src="public/screenshot/large-screen.png" width="40%">
+  <img src="public/screenshot/medium-screen.png" width="30%">
+  <img src="public/screenshot/small-screen.png" width="30%">
+</p>
 
 ## Nuxt Minimal Starter
 
