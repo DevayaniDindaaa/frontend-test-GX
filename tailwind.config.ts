@@ -14,7 +14,7 @@ export default {
           50:  '#f2f8ff',
           100: '#dceeff',
           200: '#b6dcff',
-          300: '#76e1ff',
+          300: '#3d3d3d',
           400: '#52a9ff',
           500: '#0056b3',
           600: '#1478e0',
@@ -27,6 +27,8 @@ export default {
           1000: '#ffa500'
         },
         'slightly-white': {
+          700: '#e6e9ef',
+          800: '#f9fbff',
           900: '#f5f5f5',
           1000: '#e6e6e6'
         }

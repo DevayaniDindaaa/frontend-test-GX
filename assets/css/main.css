@@ -19,8 +19,14 @@
     }
     
     /* Body Large */
+    .body-large-extrabold {
+        @apply text-large font-extrabold;
+    }
     .body-large-semibold {
         @apply text-large font-semibold;
+    }
+    .body-large-medium {
+        @apply text-large font-medium;
     }
     .body-large-normal {
         @apply text-large font-normal;
