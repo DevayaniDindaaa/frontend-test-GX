@@ -14,7 +14,8 @@
             </div>
             <div class="flex lg:justify-start justify-center">
                 <button
-                    class="w-fit rounded-full bg-syn-blue-500 px-8 py-2 text-white body-large-semibold hover:bg-syn-blue-800 lg:mt-10 mt-5">
+                    class="w-fit rounded-full bg-syn-blue-500 px-8 py-2 text-white body-large-semibold hover:bg-syn-blue-800 lg:mt-10 mt-5"
+                    @click="">
                     Try beta today
                 </button>
             </div>

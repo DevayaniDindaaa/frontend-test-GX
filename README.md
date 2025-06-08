@@ -1,10 +1,21 @@
 # Project Description
 
-This project was developed as part of the frontend technical test for the Fullstack Developer role at GlobalXtreme.
+This project was developed as part of the frontend technical test for the Fullstack Developer role.
 
-It showcases the ability to build a modern, fully responsive user interface using Nuxt 3 as the main framework and TailwindCSS for styling.
+It demonstrates the ability to build a modern, fully responsive user interface using Nuxt 3 as the main framework and Tailwind CSS for styling.
 
-The implementation reflects a fullstack-oriented mindset with attention to component structure, reusability, and frontend best practices.
+The implementation reflects a fullstack-oriented mindset with a focus on:
+
+✅ Clean and reusable component structure
+✅ Mobile-first and responsive design
+✅ Modern UI best practices
+✅ Code readability and maintainability
+
+## Screenshot
+
+![Large Screen Screenshot](public/screenshot/large-screen.png)
+![Medium Screen Screenshot](public/screenshot/medium-screen.png)
+![Small Screen Screenshot](public/screenshot/small-screen.png)
 
 ## Nuxt Minimal Starter
 

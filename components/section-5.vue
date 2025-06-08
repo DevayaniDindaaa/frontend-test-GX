@@ -10,6 +10,22 @@ const form = ref({
     message: ''
 })
 
+const emailLink = "mailto:customersupport@synchat.com?subject=Pesan%20dari%20Website%SynChat&body=Isi%20pesan%20dan/atau%20pertanyaan%20Anda";
+const whatsappLink = "https://wa.me/628134567890?text=Halo%20saya%20ingin%20bertanya";
+const googleLink = "https://maps.app.goo.gl/yVYc9ushPf7Yd5ER8"
+const phoneLink = "tel:+628134567890";
+
+const openWhatsApp = () => {
+  window.open(whatsappLink, "_blank");
+};
+
+const openEmail = () => {
+  window.open(emailLink, "_blank");
+};
+
+const callPhone = () => {
+  window.location.href = phoneLink;
+};
 </script>
 
 <template>
@@ -29,24 +45,24 @@ const form = ref({
                         Location
                     </div>
                     <div class="flex flex-row items-end gap-2">
-                        <div class="text-syn-blue-500 body-large-medium text-left underline">Contoso Ltd. <br />215
-                            E
-                            Tasman Dr, Po Box 65502</div>
+                        <a :href="googleLink" target="_blank" rel="noopener noreferrer"
+                            class="text-syn-blue-500 body-large-medium text-left underline">Contoso Ltd. 
+                            <br />215 E Tasman Dr, Po Box 65502</a>
                         <ArrowUpRight />
                     </div>
                     <div class="text-syn-blue-800 body-large-extrabold mt-5">
-                        Phone <span class="text-syn-blue-500 body-large-medium">+62-81 3456-7890 (Voice Call)</span>
+                        Phone <span class="text-syn-blue-500 body-large-medium cursor-pointer" @click="callPhone">+62-81 3456-7890 (Voice Call)</span>
                     </div>
                 </div>
                 <div class="flex flex-col lg:flex-row gap-5 items-center">
                     <button type="button"
                         class="flex w-fit justify-center body-large-semibold items-center rounded-full px-8 py-4 focus:outline-none text-syn-blue-500 whitespace-nowrap bg-white border border-syn-blue-500"
-                        @click="">
+                        @click="openEmail">
                         customersupport@synchat.com
                     </button>
                     <button type="button"
                         class="flex w-fit justify-center body-large-semibold items-center rounded-full p-4 focus:outline-none text-syn-blue-500 whitespace-nowrap bg-white border border-syn-blue-500"
-                        @click="">
+                        @click="openWhatsApp">
                         <WhatsappFill />
                     </button>
                 </div>
@@ -72,7 +88,8 @@ const form = ref({
 
                 <div class="flex lg:justify-end justify-center">
                     <button type="submit"
-                        class="w-fit rounded-full bg-syn-blue-500 px-8 py-2 text-white body-large-semibold hover:bg-syn-blue-800">
+                        class="w-fit rounded-full bg-syn-blue-500 px-8 py-2 text-white body-large-semibold hover:bg-syn-blue-800"
+                        @click="">
                         Send
                     </button>
                 </div>
