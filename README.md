@@ -16,11 +16,11 @@ The implementation reflects a fullstack-oriented mindset with a focus on:
 
 ## Screenshot
 
-<p align="center">
-  <img src="public/screenshot/large-screen.png" width="40%">
-  <img src="public/screenshot/medium-screen.png" width="30%">
-  <img src="public/screenshot/small-screen.png" width="30%">
-</p>
+| Screen Size       | Screenshot |
+|-------------------|------------|
+| Large Screen      | <img src="public/screenshot/large-screen.png" width="300"/> |
+| Medium Screen     | <img src="public/screenshot/medium-screen.png" width="300"/> |
+| Small Screen      | <img src="public/screenshot/small-screen.png" width="300"/> |
 
 ## Nuxt Minimal Starter
 
