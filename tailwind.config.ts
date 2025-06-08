@@ -25,6 +25,9 @@ export default {
         'orange-gradient': {
           500: '#ffc71b',
           1000: '#ffa500'
+        },
+        'slightly-white': {
+          1000: '#e6e6e6'
         }
       },
       fontSize: {
@@ -32,8 +35,8 @@ export default {
         h2: "32px",
         h3: "20px",
         large: "16px",
-        small: "14px",
-        tiny: "12px"
+        medium: "14px",
+        small: "12px"
       },
       fontFamily: {
         body: ["Montserrat", "ui-sans-serif", "system-ui"],

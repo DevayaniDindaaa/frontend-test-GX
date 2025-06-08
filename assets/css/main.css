@@ -1,4 +1,6 @@
 @import "@fontsource/montserrat";
+@import "@fontsource/montserrat/700.css";
+@import "@fontsource/montserrat/800.css";
 
 @tailwind base;
 @tailwind components;
@@ -7,15 +9,26 @@
 @layer base {
     /* Heading */
     h1 {
-        @apply text-h1 font-extrabold font-sans;
+        @apply text-h1 font-extrabold;
     }
     h2 {
-        @apply text-h2 font-extrabold font-sans;
+        @apply text-h2 font-extrabold;
     }
     h3 {
-        @apply text-h3 font-bold font-sans;
+        @apply text-h3 font-bold;
     }
     
+    /* Body Large */
+    .body-large-semibold {
+        @apply text-large font-semibold;
+    }
+    .body-large-normal {
+        @apply text-large font-normal;
+    }
+    .body-large-light {
+        @apply text-large font-light;
+    }
+
     /* Body Medium */
     .body-medium-semibold {
         @apply text-medium font-semibold;
@@ -31,24 +44,13 @@
     .body-small-semibold {
         @apply text-small font-semibold;
     }
+    .body-small-medium {
+        @apply text-small font-medium;
+    }
     .body-small-normal {
         @apply text-small font-normal;
     }
     .body-small-light {
         @apply text-small font-light;
-    }
-
-    /* Body Tiny */
-    .body-tiny-semibold {
-        @apply text-tiny font-semibold;
-    }
-    .body-tiny-medium {
-        @apply text-tiny font-medium;
-    }
-    .body-tiny-normal {
-        @apply text-tiny font-normal;
-    }
-    .body-tiny-light {
-        @apply text-tiny font-light;
     }
 }

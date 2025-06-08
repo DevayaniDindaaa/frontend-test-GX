@@ -10,7 +10,7 @@ import Logo from "../assets/svg/logo.svg?component";
                 <div class="flex flex-row items-center space-x-2">
                     <Logo class="h-[3.6rem] block w-auto fill-syn-blue-800" />
                     <div
-                        class="px-3 py-1 rounded-full bg-gradient-to-r from-orange-gradient-1000 to-orange-gradient-500 text-black body-tiny-semibold">
+                        class="px-3 py-1 rounded-full bg-gradient-to-r from-orange-gradient-1000 to-orange-gradient-500 text-black body-small-semibold">
                         Beta
                     </div>
                 </div>
@@ -19,14 +19,18 @@ import Logo from "../assets/svg/logo.svg?component";
         </div>
     </div>
     <div class="bg-syn-blue-900">
-        <footer class="bg-syn-blue-900 lg:mx-auto lg:max-w-[1140px]">
-            <div class="flex flex-row items-center py-[30px] justify-between">
+        <footer class="bg-syn-blue-900 lg:mx-auto lg:max-w-[1140px] lg:px-0 px-5">
+            <div
+                class="flex flex-col lg:flex-row lg:items-center items-start py-[30px] lg:justify-between gap-4 lg:gap-0">
                 <Logo class="h-[2.8rem] block w-auto fill-white" />
-                <div>
-                    <div class="body-tiny-medium text-white">&#xA9;SynChat All Rights
-                        Reserved&nbsp;&nbsp;|&nbsp;&nbsp;<span
-                            class="underline cursor-pointer">Legal</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span
-                            class="underline cursor-pointer">Privacy policy</span></div>
+                <div class="flex flex-col lg:flex-row text-white body-small-medium">
+                    <div class="text-wrap">&#xA9;2024 SynChat All Rights Reserved</div>
+                    <div class="hidden lg:block">&nbsp;&nbsp;|&nbsp;&nbsp;</div>
+                    <div class="flex flex-row">
+                        <div class="underline cursor-pointer">Legal</div>
+                        <div>&nbsp;&nbsp;|&nbsp;&nbsp;</div>
+                        <div class="underline cursor-pointer">Privacy policy</div>
+                    </div>
                 </div>
             </div>
         </footer>
