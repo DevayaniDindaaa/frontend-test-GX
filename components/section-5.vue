@@ -70,7 +70,7 @@ const form = ref({
                         class="mt-1 w-full rounded-lg border border-slightly-white-700 bg-slightly-white-800 p-2 focus:outline-none focus:ring-2 focus:ring-syn-blue-500 text-syn-blue-300"></textarea>
                 </div>
 
-                <div class="flex justify-end">
+                <div class="flex lg:justify-end justify-center">
                     <button type="submit"
                         class="w-fit rounded-full bg-syn-blue-500 px-8 py-2 text-white body-large-semibold hover:bg-syn-blue-800">
                         Send
