@@ -1,0 +1,54 @@
+@import "@fontsource/montserrat";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /* Heading */
+    h1 {
+        @apply text-h1 font-extrabold font-sans;
+    }
+    h2 {
+        @apply text-h2 font-extrabold font-sans;
+    }
+    h3 {
+        @apply text-h3 font-bold font-sans;
+    }
+    
+    /* Body Medium */
+    .body-medium-semibold {
+        @apply text-medium font-semibold;
+    }
+    .body-medium-normal {
+        @apply text-medium font-normal;
+    }
+    .body-medium-light {
+        @apply text-medium font-light;
+    }
+
+    /* Body Small */
+    .body-small-semibold {
+        @apply text-small font-semibold;
+    }
+    .body-small-normal {
+        @apply text-small font-normal;
+    }
+    .body-small-light {
+        @apply text-small font-light;
+    }
+
+    /* Body Tiny */
+    .body-tiny-semibold {
+        @apply text-tiny font-semibold;
+    }
+    .body-tiny-medium {
+        @apply text-tiny font-medium;
+    }
+    .body-tiny-normal {
+        @apply text-tiny font-normal;
+    }
+    .body-tiny-light {
+        @apply text-tiny font-light;
+    }
+}
