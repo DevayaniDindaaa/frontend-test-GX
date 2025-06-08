@@ -6,12 +6,15 @@ import Logo from "../assets/svg/logo.svg?component";
     <div>
         <div class="min-h-screen flex flex-col lg:relative z-10">
             <header
-                class="flex py-5 h-[7rem] justify-between items-center lg:h-auto lg:mx-auto lg:max-w-[1140px] w-full lg:px-0 px-5">
-                <div class="flex flex-row items-center space-x-2">
-                    <Logo class="h-[3.6rem] block w-auto fill-syn-blue-800" />
-                    <div
-                        class="px-3 py-1 rounded-full bg-gradient-to-r from-orange-gradient-1000 to-orange-gradient-500 text-black body-small-semibold">
-                        Beta
+                class="sticky top-0 inset-x-0 z-50 justify-between items-center lg:backdrop-blur-3xl bg-white">
+                <div
+                    class="flex py-5 h-[5rem] lg:h-[7rem] justify-between items-center lg:h-auto lg:mx-auto lg:max-w-[1140px] w-full lg:px-0 px-5">
+                    <div class="flex flex-row items-center space-x-2">
+                        <Logo class="h-[3rem] lg:h-[3.6rem] block w-auto fill-syn-blue-800" />
+                        <div
+                            class="px-3 py-1 rounded-full bg-gradient-to-r from-orange-gradient-1000 to-orange-gradient-500 text-black body-small-semibold">
+                            Beta
+                        </div>
                     </div>
                 </div>
             </header>

@@ -27,6 +27,7 @@ export default {
           1000: '#ffa500'
         },
         'slightly-white': {
+          900: '#f5f5f5',
           1000: '#e6e6e6'
         }
       },
