@@ -17,13 +17,13 @@ const form = ref({
         <h2 class="uppercase text-syn-bue-800 lg:w-[60%] mx-auto">
             it’s time for a <span class="text-syn-blue-500">Hassle-free</span> customer support
         </h2>
-        <div class="body-large-normal text-syn-blue-300 lg:w-[60%] mx-auto">
+        <p class="body-large-normal text-syn-blue-300 lg:w-[60%] mx-auto">
             The future of CX is here. We get you job done with a seamless interaction
             using advanced Integration, self-learning AI and wide range of customizations
             make it more human and relevant.
-        </div>
+        </p>
         <button type="button"
-            class="flex w-fit justify-center body-large-semibold items-center rounded-full px-8 py-4 focus:outline-none text-syn-blue-500 whitespace-nowrap bg-white border border-syn-blue-500"
+            class="flex w-fit justify-center body-large-semibold items-center rounded-full px-8 py-4 focus:outline-none text-syn-blue-500 whitespace-nowrap bg-white hover:bg-syn-blue-800 border border-syn-blue-500 hover:text-white"
             @click="">
             Register beta trial
         </button>

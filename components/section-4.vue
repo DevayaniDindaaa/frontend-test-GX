@@ -23,9 +23,9 @@ import Scalable from "../assets/svg/scalable.svg?component";
                 <h3 class="uppercase text-white mb-2.5">
                     COST EFFECTIVE
                 </h3>
-                <div class="body-medium-normal text-slightly-white-900">
+                <p class="body-medium-normal text-slightly-white-900">
                     This paragraph mainly talk about our advanced and smarter AI that are
-                </div>
+                </p>
             </div>
 
             <div class="flex flex-col items-center">
@@ -40,9 +40,9 @@ import Scalable from "../assets/svg/scalable.svg?component";
                 <h3 class="uppercase text-white mb-2.5">
                     SECURE
                 </h3>
-                <div class="body-medium-normal text-slightly-white-900">
+                <p class="body-medium-normal text-slightly-white-900">
                     Establishing partnerships with local businesses and technology providers
-                </div>
+                </p>
             </div>
 
             <div class="flex flex-col items-center">
@@ -57,9 +57,9 @@ import Scalable from "../assets/svg/scalable.svg?component";
                 <h3 class="uppercase text-white mb-2.5">
                     SCALABLE
                 </h3>
-                <div class="body-medium-normal text-slightly-white-900">
+                <p class="body-medium-normal text-slightly-white-900">
                     We ensure the platform scalable to handle the growth of user businesses
-                </div>
+                </p>
             </div>
         </div>
     </div>

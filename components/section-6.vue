@@ -7,12 +7,12 @@
         <h2 class="uppercase text-white">
             Ready to Elevate Your Customer support?
         </h2>
-        <div class="body-large-normal text-slightly-white-1000 w-[70%] mx-auto mt-4">
+        <p class="body-large-normal text-slightly-white-1000 w-[70%] mx-auto mt-4">
             The future of CX is here. We get you job done with a seamless interaction
             using advanced Integration, self-learning AI and
-        </div>
+        </p>
         <button type="button"
-            class="flex w-fit justify-center body-large-semibold items-center rounded-full px-8 py-4 focus:outline-none text-syn-blue-500 whitespace-nowrap bg-white mt-10"
+            class="flex w-fit justify-center body-large-semibold items-center rounded-full px-8 py-4 focus:outline-none text-syn-blue-500 whitespace-nowrap bg-white mt-10 hover:bg-syn-blue-800 hover:text-white"
             @click="">
             Get Started
         </button>

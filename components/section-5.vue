@@ -35,11 +35,11 @@ const callPhone = () => {
         </h2>
         <div class="flex flex-col lg:grid grid-cols-2 gap-5 lg:mt-20 mt-10">
             <div class="flex flex-col lg:w-[80%] gap-[30px]">
-                <div class="body-large-normal text-syn-blue-300 text-justify">
+                <p class="body-large-normal text-syn-blue-300 text-justify">
                     Still have any questions about AI chatbot? Get in touch with our dedicated team and explore how
                     we
                     can support your works
-                </div>
+                </p>
                 <div class="flex flex-col items-start">
                     <div class="text-syn-blue-800 body-large-extrabold">
                         Location
@@ -56,14 +56,14 @@ const callPhone = () => {
                 </div>
                 <div class="flex flex-col lg:flex-row gap-5 items-center">
                     <button type="button"
-                        class="flex w-fit justify-center body-large-semibold items-center rounded-full px-8 py-4 focus:outline-none text-syn-blue-500 whitespace-nowrap bg-white border border-syn-blue-500"
+                        class="flex w-fit justify-center body-large-semibold items-center rounded-full px-8 py-4 focus:outline-none text-syn-blue-500 whitespace-nowrap bg-white border border-syn-blue-500 hover:bg-syn-blue-800 hover:text-white"
                         @click="openEmail">
                         customersupport@synchat.com
                     </button>
                     <button type="button"
-                        class="flex w-fit justify-center body-large-semibold items-center rounded-full p-4 focus:outline-none text-syn-blue-500 whitespace-nowrap bg-white border border-syn-blue-500"
+                        class="flex w-fit justify-center body-large-semibold items-center rounded-full p-4 focus:outline-none text-syn-blue-500 whitespace-nowrap bg-white border border-syn-blue-500 hover:bg-syn-blue-800 group"
                         @click="openWhatsApp">
-                        <WhatsappFill />
+                        <WhatsappFill class="fill-syn-blue-500 group-hover:fill-white"/>
                     </button>
                 </div>
             </div>

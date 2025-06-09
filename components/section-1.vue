@@ -8,10 +8,10 @@
             <h1 class="uppercase text-syn-blue-800">
                 MAXIMIZE CUSTOMER SUPPORT WITH <span class="text-syn-blue-500">FASTER</span> AI CHATBOT
             </h1>
-            <div class="body-large-normal text-syn-blue-300">
+            <p class="body-large-normal text-syn-blue-300">
                 The future of customer support is here. Explore the potential of
                 AI-powered virtual assistants for better experience
-            </div>
+            </p>
             <div class="flex lg:justify-start justify-center">
                 <button
                     class="w-fit rounded-full bg-syn-blue-500 px-8 py-2 text-white body-large-semibold hover:bg-syn-blue-800 lg:mt-10 mt-5"
